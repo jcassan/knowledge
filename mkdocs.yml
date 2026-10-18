@@ -1,0 +1,23 @@
+site_name: Knowledge
+site_url: https://jcassan.github.io/knowledge
+theme:
+  name: material
+  language: fr
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clair
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.superfences
+nav:
+  - Accueil: index.md
+  - Raccourcis terminal: raccourcis-terminal.md
