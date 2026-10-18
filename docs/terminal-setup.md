@@ -195,13 +195,9 @@ LazyVim est une distribution Neovim préconfigurée (LSP, recherche floue, explo
 Fichier `~/.config/nvim/lua/plugins/catppuccin.lua` :
 
 ```lua
-return {
-  "catppuccin/nvim",
-  name = "catppuccin",
-  priority = 1000,
-  config = function()
-    vim.cmd.colorscheme("catppuccin-mocha")
-  end,
+`return {
+  { "catppuccin/nvim", name = "catppuccin", lazy = false, priority = 1000 },
+  { "LazyVim/LazyVim", opts = { colorscheme = "catppuccin-mocha" } },
 }
 ```
 
