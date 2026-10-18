@@ -20,20 +20,6 @@ Aide-mémoire pour le setup **Ghostty + zsh + LazyVim** sur un **clavier AZERTY 
 | Explorer | `Espace e` |
 | Récupérer tout l'espace d'écran | `Ctrl+w` puis `_` |
 
-## Clavier AZERTY : caractères spéciaux
-
-Avec `macos-option-as-alt = left` dans la config Ghostty, Option **gauche** sert de Alt (raccourcis) et Option **droite** tape les caractères spéciaux.
-
-| Caractère | Touches |
-|---|---|
-| `{` `}` | Option droite + `(` / `)` |
-| `[` `]` | Option droite + Shift + `(` / `)` |
-| `\|` | Option droite + Shift + `L` |
-| `\` | Option droite + Shift + `/` |
-| `~` | Option droite + `N`, puis Espace |
-| `/` | Shift + `:` |
-| `^` | touche morte : à éviter (utiliser `0`) |
-
 ## Ghostty
 
 | Action | Raccourci |
@@ -118,7 +104,6 @@ Mode normal (après `Esc`).
 
 | Action | Raccourci |
 |---|---|
-| Insertion / retour au mode normal | `i` / `Esc` |
 | Sauvegarder | `Ctrl+s` ou `:w` |
 | Annuler / refaire | `u` / `Ctrl+r` |
 | Quitter tout | `Espace qq` ou `:qa` |
@@ -132,7 +117,7 @@ Mode normal (après `Esc`).
 font-family = JetBrainsMono Nerd Font
 font-size = 14
 theme = catppuccin-mocha
-macos-option-as-alt = left
+macos-option-as-alt = true
 window-padding-x = 8
 window-padding-y = 8
 shell-integration = zsh
