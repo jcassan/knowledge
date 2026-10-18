@@ -20,4 +20,5 @@ markdown_extensions:
   - pymdownx.superfences
 nav:
   - Accueil: index.md
+  - Setup du terminal: terminal-setup.md
   - Raccourcis terminal: raccourcis-terminal.md
